@@ -8,9 +8,9 @@ Console.WriteLine("Введите целое число");
 int number = Convert.ToInt32(Console.ReadLine());
 if (number % 2 == 0)
 {
-    Console.WriteLine("четное число");
+    Console.WriteLine("да");
 }
 else
 {
-    Console.WriteLine("нечетное число");
+    Console.WriteLine("нет");
 }
