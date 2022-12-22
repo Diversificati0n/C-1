@@ -6,8 +6,8 @@
 // 4 -> 16
 // -3 -> 9
 // -7 -> 49
-Console.Write("Введите целое число");
+Console.WriteLine("Введите целое число");
 //string str = Console.ReadLine(); 134864966
 int number = Convert.ToInt32(Console.ReadLine());
 int square = number * number;
-Console.WriteLine($"Квадрат числа {number} = {square}");
+Console.WriteLine($"Квадрат числа {number} = {square}"); // $ - интерполяция {переменные} 
