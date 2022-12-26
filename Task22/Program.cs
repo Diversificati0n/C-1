@@ -16,7 +16,6 @@ void TableSquare(int num)
     while (count <= num)
     {
         Console.WriteLine($"{count}\t" + Math.Pow(count, 2));
-        Console.WriteLine();
         count++;
     }
 }
