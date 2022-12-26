@@ -19,3 +19,6 @@ void TableSquare(int num)
         count++;
     }
 }
+
+        // Console.WriteLine($"{count,4} {Math.Pow(count, 2),4}");
+        // count++;
