@@ -4,9 +4,23 @@
 // 7 -> да
 // 1 -> нет
 
+// Console.Write("Введи цифру от 1 до 7 (день недели): ");
+// int dayNumber = Convert.ToInt32(Console.ReadLine());
+// void CheckingDay (int dayNumber) {
+//   if (dayNumber == 6 || dayNumber == 7) {
+//   Console.WriteLine("выходной день");
+//   }
+//   else if (dayNumber < 1 || dayNumber > 7) {
+//     Console.WriteLine("такого дня недели нет");
+//   }
+//   else Console.WriteLine("это не выходной день");
+// }
+// CheckingDay(dayNumber);
+
+
 Console.Write("Введи цифру от 1 до 7 (день недели): ");
 int dayNumber = Convert.ToInt32(Console.ReadLine());
-void CheckingDay (int dayNumber) {
+
   if (dayNumber == 6 || dayNumber == 7) {
   Console.WriteLine("выходной день");
   }
@@ -14,5 +28,9 @@ void CheckingDay (int dayNumber) {
     Console.WriteLine("такого дня недели нет");
   }
   else Console.WriteLine("это не выходной день");
+
+bool CheckingDay(int dayNumber) 
+{
+  return 
+  dayNumber == 6 || dayNumber == 7;
 }
-CheckingDay(dayNumber);
