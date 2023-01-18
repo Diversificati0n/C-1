@@ -14,7 +14,7 @@ if (numberB >= 0)
 }
 else
 {
-    Console.Write("Ошибка! Число В не натуральное");
+    Console.Write($"Ошибка! Число {numberB} не натуральное");
 }
 
 int degree = Degree(numberA, numberB);
